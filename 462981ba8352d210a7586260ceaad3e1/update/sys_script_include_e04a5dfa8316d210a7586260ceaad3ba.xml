@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1515419_ccl1049.Test9</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Test9</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var Test9 = Class.create();
+Test9.prototype = {
+    initialize: function() {},
+    test9: function() {
+        return "test9";
+    },
+
+    type: 'Test9'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 16:39:10</sys_created_on>
+        <sys_id>e04a5dfa8316d210a7586260ceaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test9</sys_name>
+        <sys_package display_value="CCL1049-DemoApp" source="x_1515419_ccl1049">462981ba8352d210a7586260ceaad3e1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CCL1049-DemoApp">462981ba8352d210a7586260ceaad3e1</sys_scope>
+        <sys_update_name>sys_script_include_e04a5dfa8316d210a7586260ceaad3ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 16:39:10</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e04a5dfa8316d210a7586260ceaad3ba</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 16:39:05</sys_created_on>
+        <sys_id>989a193a8316d210a7586260ceaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 16:39:05</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
