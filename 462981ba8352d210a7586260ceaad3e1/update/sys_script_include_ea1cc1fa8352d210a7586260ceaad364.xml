@@ -16,9 +16,6 @@ Feature_04321.prototype = {
     sayHello: function() {
         return "Hello!";
     },
-    sayTest: function() {
-        return "Test!";
-    },
 
     type: 'Feature_04321'
 };]]></script>
@@ -26,14 +23,14 @@ Feature_04321.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-09 15:35:56</sys_created_on>
         <sys_id>ea1cc1fa8352d210a7586260ceaad364</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Feature_04321</sys_name>
         <sys_package display_value="CCL1049-DemoApp" source="x_1515419_ccl1049">462981ba8352d210a7586260ceaad3e1</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCL1049-DemoApp">462981ba8352d210a7586260ceaad3e1</sys_scope>
         <sys_update_name>sys_script_include_ea1cc1fa8352d210a7586260ceaad364</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-09 15:46:37</sys_updated_on>
+        <sys_updated_on>2024-12-09 15:50:17</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>ea1cc1fa8352d210a7586260ceaad364</id>
