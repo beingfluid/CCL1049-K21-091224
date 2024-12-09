@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1515419_ccl1049.Feature_04321</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Feature_04321</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var Feature_04321 = Class.create();
+Feature_04321.prototype = {
+    initialize: function() {},
+
+    sayHello: function() {
+        return "Hello!";
+    },
+
+    type: 'Feature_04321'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:35:56</sys_created_on>
+        <sys_id>ea1cc1fa8352d210a7586260ceaad364</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Feature_04321</sys_name>
+        <sys_package display_value="CCL1049-DemoApp" source="x_1515419_ccl1049">462981ba8352d210a7586260ceaad3e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCL1049-DemoApp">462981ba8352d210a7586260ceaad3e1</sys_scope>
+        <sys_update_name>sys_script_include_ea1cc1fa8352d210a7586260ceaad364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:50:17</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>ea1cc1fa8352d210a7586260ceaad364</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:39:43</sys_created_on>
+        <sys_id>e6fc81768392d210a7586260ceaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:39:43</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCL1049-DemoApp">462981ba8352d210a7586260ceaad3e1</application>
+        <file_path/>
+        <instance_id>4f695e4e1b124290c82acb7b234bcbdf</instance_id>
+        <instance_name>dev273018</instance_name>
+        <name>sys_script_include_ea1cc1fa8352d210a7586260ceaad364</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1515419_ccl1049.Feature_04321&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;Feature_04321&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var Feature_04321 = Class.create();
+Feature_04321.prototype = {
+    initialize: function() {},
+
+    sayHello: function() {
+        return "Hello!";
+    },
+
+    type: 'Feature_04321'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-09 15:35:56&lt;/sys_created_on&gt;&lt;sys_id&gt;ea1cc1fa8352d210a7586260ceaad364&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Feature_04321&lt;/sys_name&gt;&lt;sys_package display_value="CCL1049-DemoApp" source="x_1515419_ccl1049"&gt;462981ba8352d210a7586260ceaad3e1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CCL1049-DemoApp"&gt;462981ba8352d210a7586260ceaad3e1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_ea1cc1fa8352d210a7586260ceaad364&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-09 15:50:17&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;ea1cc1fa8352d210a7586260ceaad364&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-09 15:39:43&lt;/sys_created_on&gt;&lt;sys_id&gt;e6fc81768392d210a7586260ceaad395&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-09 15:39:43&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>929241135</payload_hash>
+        <record_name>Feature_04321</record_name>
+        <reverted_from/>
+        <source>1299093a8352d210a7586260ceaad3bf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:50:19</sys_created_on>
+        <sys_id>316f417e8392d210a7586260ceaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193ac1d450d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:50:19</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>b16f417e5a92d21059a8f79bf788f602</update_guid>
+        <update_guid_history>b16f417e5a92d21059a8f79bf788f602:929241135,052f053eeb92d210fb1516b817fcc924:-1659972721,149e49b60092d2100c832b9741f2f3e2:2085427171,d40dc1b68492d210d1b9eb5c1abd440f:-2085673440,bb1cc9f2c092d21072ea008cafabe82b:-824570868</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:53:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1fe31e02e0984a67ba09597b90a9c611</sys_id>
+        <sys_metadata>ea1cc1fa8352d210a7586260ceaad364</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Feature_04321</sys_name>
+        <sys_package display_value="CCL1049-DemoApp" source="x_1515419_ccl1049">462981ba8352d210a7586260ceaad3e1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCL1049-DemoApp">462981ba8352d210a7586260ceaad3e1</sys_scope>
+        <sys_scope_delete display_value="">0930a0d83c04496c92bebf04357eaa91</sys_scope_delete>
+        <sys_update_name>sys_script_include_ea1cc1fa8352d210a7586260ceaad364</sys_update_name>
+        <sys_update_version display_value="sys_script_include_ea1cc1fa8352d210a7586260ceaad364">316f417e8392d210a7586260ceaad303</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:53:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
